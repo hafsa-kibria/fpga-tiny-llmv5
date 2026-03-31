@@ -1,5 +1,5 @@
 # FPGA Implementation of a Tiny LLM (Inference Only)
-**DCPS Lab, University of Missouri — Spring 2026**
+
 
 ## Project Overview
 Inference-only accelerator for TinyStories-1M transformer on FPGA
@@ -62,8 +62,3 @@ report/            Synthesis results and verification report
 | CPU PyTorch time    | 50.22 ms |
 | Estimated speedup   | 76087x |
 
-## References
-- Vaswani et al., "Attention is All You Need", NeurIPS 2017
-- TinyStories: roneneldan/TinyStories-1M (HuggingFace)
-- Yosys: github.com/YosysHQ/yosys
-- Icarus Verilog: github.com/steveicarus/iverilog
