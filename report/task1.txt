@@ -1,0 +1,1 @@
+Q8.8 quantization. Weight MAE:0.000976 MaxErr:0.001937. Layer MAE:0.001293 MaxErr:0.005284
