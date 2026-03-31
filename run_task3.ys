@@ -1,0 +1,13 @@
+
+read_verilog rtl/fp_multiplier.v
+read_verilog rtl/layer_norm.v
+read_verilog rtl/ffn.v
+read_verilog rtl/kv_cache.v
+read_verilog rtl/attention_block.v
+read_verilog rtl/transformer_block.v
+hierarchy -top transformer_block
+proc
+opt
+memory
+opt
+stat

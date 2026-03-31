@@ -1,0 +1,14 @@
+
+read_verilog rtl/fp_multiplier.v
+read_verilog rtl/layer_norm.v
+read_verilog rtl/kv_cache.v
+read_verilog rtl/attention_block.v
+read_verilog rtl/ffn.v
+read_verilog rtl/transformer_block.v
+read_verilog rtl/embedding.v
+read_verilog rtl/argmax_fsm.v
+read_verilog rtl/model_top.v
+hierarchy -check -top model_top
+proc; opt; memory; opt; techmap; opt
+stat
+write_verilog report/synth_out.v

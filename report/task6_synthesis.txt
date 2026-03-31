@@ -1,0 +1,14 @@
+TASK 6 — Yosys Synthesis Report
+==================================================
+wires: 32141
+wire_bits: 393126
+cells: 233969
+memories: 0
+memory_bits: 0
+dff: 16392
+
+Cycles per token: 33
+FPGA freq: 50 MHz
+FPGA time per token: 0.0007 ms
+CPU PyTorch time: 50.22 ms
+Speedup: 76087x
