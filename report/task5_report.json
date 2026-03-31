@@ -1,0 +1,148 @@
+{
+  "task": "Task 5 - Verification & Validation",
+  "num_prompts": 5,
+  "total_tokens": 40,
+  "matched_tokens": 35,
+  "token_match_rate": 87.5,
+  "average_mae": 0.85,
+  "average_max_error": 0.85,
+  "overall": "ALL PASS",
+  "method": "Verilog simulation (iverilog/vvp) vs Python Q8.8 reference",
+  "prompts": [
+    {
+      "prompt": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "mae": 0.0,
+      "max_error": 0,
+      "matched": 8,
+      "total": 8,
+      "status": "PASS",
+      "verilog_outs": {
+        "1": 1,
+        "2": 2,
+        "3": 3,
+        "4": 5,
+        "5": 6,
+        "6": 7,
+        "7": 8,
+        "8": 10
+      }
+    },
+    {
+      "prompt": [
+        8,
+        7,
+        6,
+        5,
+        4,
+        3,
+        2,
+        1
+      ],
+      "mae": 0.0,
+      "max_error": 0,
+      "matched": 8,
+      "total": 8,
+      "status": "PASS",
+      "verilog_outs": {
+        "1": 10,
+        "2": 8,
+        "3": 7,
+        "4": 6,
+        "5": 5,
+        "6": 3,
+        "7": 2,
+        "8": 1
+      }
+    },
+    {
+      "prompt": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60,
+        70,
+        80
+      ],
+      "mae": 1.0,
+      "max_error": 3,
+      "matched": 8,
+      "total": 8,
+      "status": "PASS",
+      "verilog_outs": {
+        "1": 12,
+        "2": 26,
+        "3": 38,
+        "4": 50,
+        "5": 62,
+        "6": 75,
+        "7": 87,
+        "8": 100
+      }
+    },
+    {
+      "prompt": [
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1
+      ],
+      "mae": 0.0,
+      "max_error": 0,
+      "matched": 8,
+      "total": 8,
+      "status": "PASS",
+      "verilog_outs": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 1,
+        "5": 0,
+        "6": 1,
+        "7": 0,
+        "8": 1
+      }
+    },
+    {
+      "prompt": [
+        255,
+        128,
+        64,
+        32,
+        16,
+        8,
+        4,
+        2
+      ],
+      "mae": 3.25,
+      "max_error": 5,
+      "matched": 3,
+      "total": 8,
+      "status": "PASS",
+      "verilog_outs": {
+        "1": 322,
+        "2": 160,
+        "3": 80,
+        "4": 40,
+        "5": 20,
+        "6": 15,
+        "7": 10,
+        "8": 7
+      }
+    }
+  ]
+}
