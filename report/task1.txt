@@ -1,1 +1,11 @@
-Q8.8 quantization. Weight MAE:0.000976 MaxErr:0.001937. Layer MAE:0.001293 MaxErr:0.005284
+Dynamic Precision Scaling — Task 1 Report
+==================================================
+Tensors using Q8.8 : 84
+Tensors using Q4.4 : 24
+Overall Weight MAE : 0.003352
+Overall Weight Max : 0.008028
+Memory saving vs all-Q8.8: 11.1%
+
+Per-layer output errors:
+  layer0_FFN_Q8.8: MAE=0.001293  Max=0.005284
+  layer4_FFN_Q4.4: MAE=0.018194  Max=0.081305
